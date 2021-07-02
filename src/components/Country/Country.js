@@ -42,10 +42,7 @@ const Country = ({ country }) => {
             </CardActionArea>
             <CardActions>
                <Button size="small" color="primary">
-                  Share
-               </Button>
-               <Button size="small" color="primary">
-                  Learn More
+                  Detail
                </Button>
             </CardActions>
          </Card>
