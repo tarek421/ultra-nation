@@ -20,7 +20,7 @@ const Country = ({ country }) => {
    console.log(country)
    const classes = useStyles();
 
-   const { name, nativeName, region, capital, population, flag, translations } = country;
+   const { name, capital, population, flag, translations } = country;
    console.log(translations)
    return (
       <div className="col-md-4 mt-5">
