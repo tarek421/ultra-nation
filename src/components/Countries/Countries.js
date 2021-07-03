@@ -10,11 +10,16 @@ const Countries = () => {
          .then(data => setCountries(data))
    }, [])
 
+   const detailCountry = (country) => {
+      
+      console.log("detail Country", country)
+   }
+
    return (
       <div className="container">
          <div className="row">
             {
-               countries.map(country => <Country key={country.alpha3Code} country={country}></Country>)
+               countries.map(country => <Country detailCountry={detailCountry} key={country.alpha3Code} country={country}></Country>)
             }
          </div>
       </div>
